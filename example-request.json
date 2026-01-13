@@ -1,0 +1,80 @@
+{
+  "input": {
+    "workflow": {
+      "9": {
+        "inputs": {
+          "filename_prefix": "Flux2",
+          "images": [
+            "68",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "SaveImage"
+        }
+      },
+      "45": {
+        "inputs": {
+          "text": "lanczos",
+          "image": [
+            "46",
+            0
+          ]
+        },
+        "class_type": "ImageScaleToTotalPixels",
+        "_meta": {
+          "title": "ImageScaleToTotalPixels"
+        }
+      },
+      "46": {
+        "inputs": {
+          "image": "ComfyUI_00001_.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "68": {
+        "inputs": {
+          "filename": "put that chair in lifing room.",
+          "pixels": [
+            "45",
+            0
+          ]
+        },
+        "class_type": "7651d2ae-5471-47b0-b064-b34ee62343c1",
+        "_meta": {
+          "title": "7651d2ae-5471-47b0-b064-b34ee62343c1"
+        }
+      },
+      "69": {
+        "inputs": {
+          "filename": "The woman is wearing a small pale yellow knitted beanie, with a white fabric patch on the front right, embroidered with big gray text “FLUX.2 COMFY.” Keep the face",
+          "pixels": [
+            "45",
+            0
+          ]
+        },
+        "class_type": "72458a4d-bdb0-482a-b018-42bcef9a4193",
+        "_meta": {
+          "title": "72458a4d-bdb0-482a-b018-42bcef9a4193"
+        }
+      },
+      "70": {
+        "inputs": {
+          "filename_prefix": "Flux2",
+          "images": [
+            "69",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "SaveImage"
+        }
+      }
+    }
+  }
+}
